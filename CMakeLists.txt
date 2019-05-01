@@ -1,7 +1,7 @@
 # Main cmakelists.txt
 # @author : Ziad Mostafa
 
-cmake_minimum_required(VERSION 3.10.2)
+cmake_minimum_required(VERSION 3.9.2)
 
 project('CPP-ND')
 set(PROJECT_DESCRIPTION "\"A group project for all assignments and development \
