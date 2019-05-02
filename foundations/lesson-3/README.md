@@ -3,9 +3,9 @@ Week One applications ....
 
 ## A* search Algorithm
 
-![alt text](https://github.com/zmostafa/cpp-ND/blob/common/images/a-search-algorithm-1.png "A* Search")
+![alt text](https://github.com/zmostafa/cpp-ND/blob/master/common/images/a-search-algorithm-1.png "A* Search")
 
-###A* Pseudocode
+### A* Pseudocode
 
 To implement A* search, you will implement the following psuedocode, step by step in a sequence of exercises:
 
