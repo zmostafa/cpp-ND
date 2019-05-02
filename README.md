@@ -1,12 +1,12 @@
-# cpp-ND
+# cpp-ND    [![Build Status](https://travis-ci.com/zmostafa/cpp-ND.svg?branch=master)](https://travis-ci.com/zmostafa/cpp-ND)
 Udacity C++ ND . It will contain the weekly notes and progress, the big projects will have separate repos
 
 # Project Structure 
 
 <pre>cpp-ND
-├── c++-foundations
+├── foundations
 │   ├── CMakeLists.txt
-│   └── week-one
+│   └── lesson-2
 │       ├── cmake
 │       ├── CMakeLists.txt
 │       ├── doc
