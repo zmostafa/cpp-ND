@@ -1,7 +1,7 @@
 # Main cmakelists.txt
 # @author : Ziad Mostafa
 
-cmake_minimum_required(VERSION 3.9.2)
+cmake_minimum_required(VERSION 3.5.1)
 
 set(PROJECT_DESCRIPTION "\"A group project for Course 1 of C++ Nano Degree \
      assignments and development\"")
@@ -16,4 +16,4 @@ set(VERSION_PATCH "0")
 set(VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH})
 
 # Add directory c++-Foundations that contains the work of the first part of the ND
-add_subdirectory('week-one')
+add_subdirectory(lesson-2)

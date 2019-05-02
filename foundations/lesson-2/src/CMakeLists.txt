@@ -1,7 +1,7 @@
 # Main cmakelists.txt
 # @author : Ziad Mostafa
 
-cmake_minimum_required(VERSION 3.9.2)
+cmake_minimum_required(VERSION 3.5.1)
 
 set(PROJECT_DESCRIPTION "\"A group project for Course 1 of C++ Nano Degree \
      assignments and development\"")
@@ -10,4 +10,4 @@ set(PROJECT_DESCRIPTION "\"A group project for Course 1 of C++ Nano Degree \
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/../../cmake)
 
 # C++ Executable 
-add_executable('week-one')
+add_executable(PrintBoard main.cpp)

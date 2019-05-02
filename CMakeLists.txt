@@ -1,9 +1,9 @@
 # Main cmakelists.txt
 # @author : Ziad Mostafa
 
-cmake_minimum_required(VERSION 3.9.2)
+cmake_minimum_required(VERSION 3.5.1)
 
-project('CPP-ND')
+project(CPP-ND)
 set(PROJECT_DESCRIPTION "\"A group project for all assignments and development \
                         in Udacity C++ Nano Degree\"")
 
@@ -20,4 +20,4 @@ enable_testing() # needed on top-level CMakeLists.txt
 add_custom_target(doc)
 
 # Add directory c++-Foundations that contains the work of the first part of the ND
-add_subdirectory('c++-foundations')
+add_subdirectory(foundations)
