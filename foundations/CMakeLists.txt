@@ -17,3 +17,4 @@ set(VERSION ${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_PATCH})
 
 # Add directory c++-Foundations that contains the work of the first part of the ND
 add_subdirectory(lesson-2)
+add_subdirectory(lesson-3)
