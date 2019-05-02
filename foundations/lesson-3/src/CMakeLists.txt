@@ -10,4 +10,4 @@ set(PROJECT_DESCRIPTION "\"A group project for Course 1 of C++ Nano Degree \
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/../../cmake)
 
 # C++ Executable 
-add_executable(PrintBoard main.cpp)
+add_executable(Astar-search main.cpp)
