@@ -65,6 +65,7 @@ void PrintBoard(const vector<vector<State>> board) {
 }
 
 int main() {
-  auto board = ReadBoardFile("1.board");
+  cout << "Application started .." << std::endl;
+  auto board = ReadBoardFile("/home/z606988/github/cpp-ND/foundations/lesson-2/src/maze.board");
   PrintBoard(board);
 }
