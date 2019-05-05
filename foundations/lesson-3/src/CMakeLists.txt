@@ -11,3 +11,10 @@ set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/../../cma
 
 # C++ Executable 
 add_executable(Astar-search main.cpp)
+
+add_custom_target(copy-maze-file)
+add_custom_command(
+        TARGET foo POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy
+                ${CMAKE_SOURCE_DIR}/maze.board
+                ${CMAKE_CURRENT_BINARY_DIR}/maze.baord)
