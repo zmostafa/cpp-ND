@@ -14,7 +14,7 @@ add_executable(PrintBoard main.cpp)
 
 add_custom_target(copy-maze-file)
 add_custom_command(
-        TARGET foo POST_BUILD
+        TARGET copy-maze-file POST_BUILD
         COMMAND ${CMAKE_COMMAND} -E copy
                 ${CMAKE_SOURCE_DIR}/maze.board
                 ${CMAKE_CURRENT_BINARY_DIR}/maze.baord)
